@@ -3,7 +3,6 @@
 1. 🤖 [Introduction](#introduction)
 2. ⚙️ [Tech Stack](#tech-stack)
 3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
 
 
 ## <a name="introduction">🤖 Introduction</a>
@@ -43,69 +42,3 @@ A modern travel agency platform with an admin dashboard and public site. Generat
 
 and many more, built for scalability and a smooth user experience.
 
-## <a name="quick-start">🤸 Quick Start</a>
-
-Follow these steps to set up the project locally on your machine.
-
-**Prerequisites**
-
-Make sure you have the following installed on your machine:
-
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
-
-**Cloning the Repository**
-
-```bash
-git clone https://github.com/SUBHAN-0786/REACT-TRAVEL-AGENCY-DASHBOARD
-cd REACT-TRAVEL-AGENCY-DASHBOARD
-```
-
-**Installation**
-
-Install the project dependencies using npm:
-
-```bash
-npm install
-```
-
-**Set Up Environment Variables**
-
-Create a new file named `.env` in the root of your project and add the following content:
-
-```env
-VITE_SYNCFUSION_LICENSE_KEY=
-VITE_APPWRITE_PROJECT_ID=
-VITE_APPWRITE_API_ENDPOINT=
-VITE_APPWRITE_API_KEY=
-VITE_APPWRITE_DATABASE_ID=
-VITE_APPWRITE_USERS_COLLECTION_ID=
-VITE_APPWRITE_ITINERARY_COLLECTION_ID=
-STRIPE_SECRET_KEY=
-GEMINI_API_KEY=
-UNSPLASH_ACCESS_KEY="
-VITE_BASE_URL="http://localhost:5173"
-```
-
-### Replace the placeholder values with your actual credentials.
-
-- **[Syncfusion](https://jsm.dev/tourvisto-syncfusion)**
-
-- **[Appwrite](https://jsm.dev/tourvisto-appwrite)**
-
-- **[Gemini AI](https://aistudio.google.com/)**
-
-- **[Sentry](https://jsm.dev/tourvisto-sentry)**
-
-- **[Stripe](https://stripe.com/)**
-
-- **[Unsplash](https://unsplash.com/)**
-
-**Running the Project**
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:5173](http://localhost:5173/) in your browser to view the project.
